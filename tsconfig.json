@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "target": "es5",                          
+      "module": "commonjs",                    
+      "lib": ["es6"],                     
+      "allowJs": true,
+      "outDir": "./build",
+      "baseUrl": "./",
+      "strict": true,         
+      "noImplicitAny": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "paths": {
+        "@mainjs/*": ["src/@mainjs/*"]
+      }
+    },
+    "include": [
+        "./**/*"
+    ],
+    "exclude": [
+      "./build/**/*"
+    ]
+}
